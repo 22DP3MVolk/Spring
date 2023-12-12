@@ -16,7 +16,9 @@ public class DefaultRestController {
         new Student("Jānis",
         "Smith",
         "j@s.lv",
-        "DP2-1");
+        "DP2-1",
+        "āblos");
+
 
 
         ObjectMapper objectMapper = new ObjectMapper();
