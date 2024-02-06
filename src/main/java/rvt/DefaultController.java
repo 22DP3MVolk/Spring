@@ -23,6 +23,12 @@ public class DefaultController {
         ModelAndView modelAndView = new ModelAndView("fileadada");
         return modelAndView;
     }
+    @GetMapping(value = "/register")
+    ModelAndView register() {
+        ModelAndView modelAndView = new ModelAndView("register");
+
+        
+        return modelAndView;
    
 }
-    
+}
